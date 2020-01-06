@@ -1,0 +1,387 @@
+
+/*======================================PROFIL====================================*/
+
+#profil{
+ background-image: url(lulu1.jpg); 
+ background-size: contain;
+ background-attachment: fixed;
+}
+
+/*Header*/
+
+
+header{
+	background-color: white;
+	box-shadow: inset 0 0 3em #2A0303 ;
+  background-color: #FFFFFF;
+}
+
+ nav,.topnav,ul,li{
+ 	display:inline-block;
+ 	padding: 18px;
+	list-style-type: none;
+  padding-bottom: 1.5%;
+ }
+ 
+ nav,.topnav,ul,li,a{
+ 	text-decoration: none;
+}
+
+.btnch{
+  font-family: 'Underdog', cursive;
+	color: #060606 ;
+ 	font-size: 50px;
+ 	font-weight: bold;
+  text-align: center;
+  margin-left: 250;
+}
+
+.btnch:hover {
+  border-bottom: 3px solid #862E2E;
+}
+
+.accueilch{
+	margin: 2%;
+}
+
+.btn{
+	text-align: center;
+	background-color:#1fe0;
+}
+
+#diablechlo{
+ position: relative;
+ margin-left: 20%;
+}
+
+#diablotin{
+  margin-left:350%;
+}
+
+#menuchlo ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menuchlo li:hover ul{
+max-height:15em;
+}
+
+#menuchlo ul li{
+display:inherit;
+border-radius:0;
+}
+#menuchlo ul li:hover{
+border-radius:0;
+}
+#menuchlo ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+
+#menuchlo, #menuchlo ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menuchlo li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+#menuchlo ul li{
+display:inherit;
+border-radius:0;
+}
+#menuchlo ul li:hover{
+border-radius:0;
+}
+#menuchlo ul li:last-child{
+border-radius:0 0 8px 8px;
+margin-top: 14%;
+
+}
+
+#comchlo{
+  font-family: 'Underdog', cursive;
+  color: #862E2E;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 230;
+}
+
+#comchlo:hover{
+  border-bottom: 3px solid #862E2E;
+}
+
+/*titre*/
+
+.titre{
+	text-align: center;
+  font-family: 'Underdog', cursive;
+  color: white;
+  font-size: 250%;
+  margin-top: 10%;
+  border: 16px double white;
+  margin-left: 600;
+  margin-right: 600;
+}
+
+.titrepro{
+	text-align: center;
+  padding: 10%;
+  font-family: 'Underdog', cursive;
+  color: white;
+  font-size: 270%;
+} 
+
+/*Infoblock*/
+
+.infoblock{
+  margin-bottom: 10%;
+}
+
+.infopro{
+  color: white;
+  font-family: 'Underdog', cursive;
+  font-size: 250%;
+  padding: 4%;
+}
+
+.sectionpro{
+  text-align: center;
+  margin-bottom: 30%;
+}
+
+  /*fieldset*/
+
+.fieldsetpro{
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;  
+  border-radius:10px;  
+  max-width:800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #862E2E;
+  border-width:8px;
+  background-color: rgba(70, 69, 69, 0.5);
+}
+
+.inputpro{
+  width: 15%;
+  height: 5%;
+  margin: 2.5%;
+}
+
+ /*Bouton*/
+
+.blockbouton{
+text-align: center;
+
+}
+
+.boutonpro {
+  box-shadow:inset 0px 1px 0px 0px #962f26;
+  background:linear-gradient(to bottom, #fe1a00 5%, #5c1919 100%);
+  background-color:#fe1a00;
+  border-radius:6px;
+  border:1px solid #5B1F1F;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #de0909;
+  font-family: 'Fondamento', cursive;
+  font-size: 150%;
+  padding:1%;
+  margin:2%;
+
+}
+.boutonpro:hover {
+  background:linear-gradient(to bottom, #5c1919 5%, #fe1a00 100%);
+  background-color:#5c1919;
+}
+.boutonpro:active {
+  position:relative;
+  top:1px;
+}
+
+.deco{
+  font-family: 'Fondamento', cursive;
+  margin: 3%;
+  font-size: 200%;
+}
+
+.deco:link {
+  color: #B00202;
+}
+
+.deco:hover {
+  text-decoration: none;
+  color: white;
+  background: #671E1E;
+}
+
+/*======================================INSCRIPTION====================================*/
+
+#inscription{
+ background-image: url(lulu.jfif); 
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+#headerins{
+  background-color: rgba(35, 32, 32, 0.85);
+  box-shadow: inset 0 0 1.5em #FFF ;
+  padding:2%;
+  border: white 7px inset;
+}
+
+.articleins{
+  width: 28%;
+  margin-left: 36%;
+}
+
+#titreins{
+  text-align: center;
+  font-family: 'Underdog', cursive;
+  color: white;
+  font-size: 500%;
+  text-shadow:0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);color:#fff;
+}
+
+#titreins1{
+  text-align: center;
+  font-family: 'Underdog', cursive;
+  color: white;
+  font-size: 270%;
+}
+
+.sectionins{
+  padding-top: 13%;
+
+}
+
+.fieldsetins{
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;  
+  border-radius:10px;  
+  max-width:1750px;
+  margin-left: 3%;
+  border-color: #862E2E;
+  border-width:8px;
+  background-color: rgba(35, 32, 32, 0.5);
+}
+
+#legendins{
+  margin-left: 16%;
+}
+
+#charteins{
+  text-align: center;
+  font-family: 'Underdog', cursive;
+  color: #501C1C;
+  font-size: 350%;
+  padding: 4%;
+  border: white 7px inset;
+  margin-top: 40%;
+  text-shadow:0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);color:#fff;
+  background-color: rgba(35, 32, 32, 0.85);
+}
+
+#loi-ins{
+  text-align: center;
+  color: white;
+  font-family: 'Underdog', cursive;
+  font-size: 250%;
+  padding: 4%;
+}
+
+/*-----------------COMMENTAIRE-----------------*/
+
+#commentaire{
+  background-image: url(lulu4.jpg); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#com{
+  text-align: center;
+  color: white;
+  font-family: 'Underdog', cursive;
+  font-size: 450%;
+  padding: 2%;
+  text-shadow: #470707 1px 1px 2px, 0 0 1em #A91010 , 0 0 0.2em #A91010;
+  padding-top: 6%;
+}
+}
+
+#sectionpro{
+  background-color: rgba(35, 32, 32, 0.25)
+}
+
+.articlecom{
+  padding-left: 2%;
+}
+
+.textcom{
+  color: white;
+  font-family: 'Underdog', cursive;
+  font-size: 300%;
+  padding: 2%;
+  text-shadow: #470707 1px 1px 2px, 0 0 1em #A91010 , 0 0 0.2em #A91010;
+}
+
+#textcom1{
+  padding-top: 10%;
+}
+
+#inputcom{
+  width: 45%;
+  height: 35%;
+  margin: 2%;
+  border: 3px solid #800303;
+}
+
+#divtext{
+  display: flex;
+}
+
+#divbtn{
+  display: flex;
+}
+
+#blockboutoncom{
+  margin-left: %;
+}

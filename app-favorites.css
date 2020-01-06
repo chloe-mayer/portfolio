@@ -1,0 +1,143 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+
+a{
+    text-shadow:   0 0 2px rgba(204, 208, 212,0.9),
+    0 15px 25px rgba(0, 0, 0, 0.3),
+    0 -2px 3px rgba(0, 0, 0, 0.1),
+    0 -5px 10px rgba(255, 255, 255, 0.5),
+    0 5px 10px rgba(0, 0, 0, 0.3),
+    0 3px 4px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.45);color:#0F0F0F ;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    scroll-behavior: smooth;
+    
+}
+
+a:hover{
+    color: #F0D934 ;
+    text-transform: uppercase;
+}
+
+.page {
+    
+    background-color: #373737 ;
+    height: auto;
+    width: auto;
+    margin-left: 30%;
+}
+
+/*Première App*/
+
+h2{
+    text-shadow:#f0ff00 2px 2px 0,
+    #e82727 4px 4px 0,
+    #720aff 6px 6px 0.5px,
+    #333 5px 5px 10px;color:#00fffc;
+    font-family: 'Roboto Slab', serif; text-align: center;
+    font-size: 40px;
+}
+
+.section1{
+    height: 100px;
+    box-shadow:10px 5px 30px black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.v1
+{
+    width: auto;
+    height: 250px;
+}
+.section1:hover
+{
+    background-image: url(gif1.gif);
+    filter: brightness(1);
+
+}
+#titre1
+{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 3%;
+}
+
+#icon1{
+
+    margin-top: 1%;
+    width: 200px;
+    height: 200px
+}
+
+
+/*Deuxième App*/
+.section2{
+
+    height: 900px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2:hover{
+    filter: brightness(1);
+   
+}
+
+.appli-liste{
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+img{
+    width: 170px;
+    height: 170px;
+    border-radius :10%;
+    border:6px solid #00fffc;
+    padding:20px;
+    margin: 20px;
+}
+
+/*menu*/
+
+#menu
+{
+    background-image: url(https://images.unsplash.com/photo-1562447574-0f87f4c00d31?ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80);
+    background-position: cover;
+    width: 29.5%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    box-shadow: 0px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    
+}
+
+/*menu boutons*/
+
+#accueil{
+    font-family: 'Roboto Slab', serif; text-align: center;
+    font-size: 40px;
+    margin-top: -100px;
+    color:#00fffc;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+

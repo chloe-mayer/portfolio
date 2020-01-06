@@ -1,0 +1,280 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  border: none;
+  background: transparent;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 150%;
+}
+
+.dropup {
+  position: relative;
+  display: flex;
+  background: #225E94;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  padding: 24px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  color:white;
+   background: transparent;
+  min-width: 190px;
+  left: 500px;
+  top: 1px;
+  z-index: 1;
+  padding: 1.35%;
+}
+
+.dropup-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.liheader{
+  display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.linkpro{
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 80px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.link{
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+
+.link:hover {
+  background-color: #ffffff;
+  color: #6AADE8 ;
+  padding: 24px 10px;
+}
+
+
+/*---------------------A NE PAS MANQUER----------------------*/
+
+.sectionmanquer{
+  display: flex;
+  width: 100%;
+
+}
+
+.leftmanquer{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 1.5%;
+  margin-top: 20%;
+}
+
+.rightmanquer{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+}
+
+.imgrond{
+  overflow:hidden;
+  -webkit-border-radius:160px;
+  -moz-border-radius:160px;
+  border-radius:160px;
+  width:360px;
+  height:330px;
+  -moz-box-shadow: 0px 0px 10px #343434;
+  -webkit-box-shadow: 0px 0px 10px #343434;
+  -o-box-shadow: 0px 0px 10px #343434;
+  box-shadow: 0px 0px 10px #88ABCA;
+  border: 3px solid #225E94;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.imgrond:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#imgcarre{
+  margin-top: 11%;
+  margin-bottom: 11%;
+  border: 2px solid #225E94;
+  box-shadow: 0px 0px 40px #196CB6 ;
+}
+
+.gif{
+  margin-top: 5%;
+  margin-bottom:7%;
+  text-align: center;
+}
+
+
+#titre{
+  font-size: 280%;
+  font-family: 'Rock Salt', cursive;
+  padding: 2%;
+  margin-left: 12%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  text-shadow: #89DBE9 1px 0 15px;
+  -webkit-animation-duration: 10s; 
+  animation-duration: 10s; 
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; 
+}
+         
+@-webkit-keyframes wiggle { 
+  0% { -webkit-transform: skewX(9deg); }
+  10% { -webkit-transform: skewX(-8deg); }
+  20% { -webkit-transform: skewX(7deg); }
+  30% { -webkit-transform: skewX(-6deg); }
+  40% { -webkit-transform: skewX(5deg); } 
+  50% { -webkit-transform: skewX(-4deg); } 
+  60% { -webkit-transform: skewX(3deg); }
+  70% { -webkit-transform: skewX(-2deg); } 
+  80% { -webkit-transform: skewX(1deg); } 
+  90% { -webkit-transform: skewX(0deg); }
+  100% { -webkit-transform: skewX(0deg); } 
+}
+         
+@keyframes wiggle { 
+  0% { transform: skewX(9deg); } 
+  10% { transform: skewX(-8deg); } 
+  20% { transform: skewX(7deg); } 
+  30% { transform: skewX(-6deg); } 
+  40% { transform: skewX(5deg); } 
+  50% { transform: skewX(-4deg); } 
+  60% { transform: skewX(3deg); } 
+  70% { transform: skewX(-2deg); } 
+  80% { transform: skewX(1deg); } 
+  90% { transform: skewX(0deg); } 
+  100% { transform: skewX(0deg); } 
+}
+         
+.wiggle { 
+  -webkit-animation-name: wiggle;
+  animation-name: wiggle; 
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in; 
+}
+        
+.titre.wiggle { 
+  -webkit-animation-duration: 0.75s; 
+  animation-duration: 0.75s;
+}
+
+.titre1{
+  font-family: 'Lacquer', sans-serif;
+  font-size: 200%;
+}
+
+#txtprincipal{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-bottom: 3%;
+
+}
+
+#txtprincipal1{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 130%;
+  margin-top: 11%;
+}
+
+#liste .point{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 130%;
+}
+
+#liste{
+ list-style-image: url("verre.jpg");
+
+}
+
+.txt{
+ font-family: 'Quicksand', sans-serif;
+  font-size: 120%;
+}
+
+.backprincipal{
+  background-color: #90C3F0;
+  padding: 5%;
+  box-shadow: 0px 0px 10px #343434;
+}
+
+#padtxt{
+    margin-bottom: 29%;
+}
+
+#marge{
+  margin-top: 15%;
+}
+
+.back{
+  background-color: #EDF3F9;
+  padding: 2%;
+  box-shadow: 9px 9px 4px #DBE8F5 ;
+}
+
+.padimg{
+  margin-top: 9%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.lien:link {
+  color:black;
+  text-decoration:underline;
+  background-color:;
+}
+
+.lien:visited {
+  color:#6A6252 ;
+  text-decoration:none;
+}
+
+.lien:hover {
+  color:#196CB6 ;
+  background-color: white;
+}
+
+.lien:active {
+  color:#B4DCE3;
+  text-decoration:none;
+
+}

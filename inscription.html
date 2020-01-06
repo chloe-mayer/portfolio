@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Inscription</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <link rel="stylesheet" href="connexion.css" />
+        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+        <link href="https://uvc.one/upload/iblock/c5c/c5c61232a4ad8eb3c00a9d711f5f0b37.css" rel="stylesheet">
+        <link href="https://uvc.one/upload/iblock/70b/70b3cdd695a5c64d5844f77fe47e61e1.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <section class="content1" style="padding-right: 15%;">
+            <form action="connexion.html" method="post" style="padding-top: 8%">
+
+                <div class="columns1">
+
+                    <div class="columne">
+                        <h1 id="inscription">
+                            Inscription
+                        </h1>
+                    </div>
+
+                </div>
+
+                <div class="columns">
+
+                    <div class="columne">
+                        <label class="required" for="login">Login<span style="color: pink;">*</span></label><br>
+                        <input type="text" name="login" minlength="3" required />
+                    </div>
+
+                </div>
+
+                <div class="columns">
+
+                    <div class="columne">
+                        <label class="required" for="pw">Mot de passe<span style="color: pink;">*</span></label><br>
+                        <input type="password" name="pw" minlength="6" required />
+                    </div>
+
+                    <div class="columne">
+                        <label class="required" for="pwConfirm">Mot de passe <span style="color: pink;">*</span><br> (confirmation)</label><br>
+                        <input type="password" name="pwConfirm" minlength="6" required />
+                    </div>
+
+                </div>
+
+                <div class="columns">
+
+                    <div class="columne">
+                        <label for="lastName">Nom</label><br>
+                        <input type="text" name="lastName" minlength="3" />
+                    </div>
+
+                    <div class="columne">
+                        <label for="firstName">Prénom</label><br>
+                        <input type="text" name="firstName" minlength="3" />
+                    </div>
+
+                </div>
+
+                <div class="columns">
+                    <div class="columne">
+                        <label class="required" for="gender">Sexe<span style="color: pink;">*</span></label><br>
+                        <select name="gender" required&>
+                            <option value="" disabled selected>Choisissez...</option>
+                            <option value="male">Homme</option>
+                            <option value="female">Femme</option>
+                            <option value="lgbt">Transexuel</option>
+                            <option value="lgbt">Hermaphrodite</option>
+                            <option value="cat">Chat</option>
+                        </select>
+                    </div>
+
+                    <div class="columne">
+                        <label for="birthday">Date de naissance</label><br>
+                        <input type="datetime-local" name="birthday" />
+                    </div>
+
+                </div>
+            </form>
+            <form class="putain1">
+                <div>
+
+                    <div class="columne">
+                        <label for="tel">Téléphone</label><br>
+                        <input type="tel" name="tel" />
+                    </div>
+
+                    <div class="columne">
+                        <label class="required" for="email">E-mail<span style="color: pink;">*</span></label><br>
+                        <input type="email" required name="email" placeholder="Germainedu87@gmail.com" />
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div class="columne">
+
+                        <label class="required" for="education">Niveau d'études<span style="color: pink;">*</span></label><br>
+                        <select name="education" required>
+                            <option value="">Choisissez ...</option>
+                            <option value="none">Un peu</option>
+                            <option value="bac">Beaucoup</option>
+                            <option value="bac3">A la folie</option>
+                            <option value="bacrien">Pas du tout</option>
+                        </select>
+                    
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div class="columne">
+                        <label for="desc">Présentation</label><br>
+                        <textarea name="desc" rows="5"></textarea>
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div class="columne">
+
+                        <label for="hobbies">Hobbies</label><br>
+                        <select name="hobbies" multiple>
+                            <option value="picture">Photographie</option>
+                            <option value="cook">cuisine</option>
+                            <option value="music">Musique</option>
+                            <option value="voyage">Voyage</option>
+                            <option value="theater">Théatre</option>
+                            <option value="foufou">Pate à modeler</option>
+                        </select>
+                </form>
+                    </div>
+
+                </div>
+
+                <div clas="columns">
+
+                    <div>
+                        <div class="column7" ><span style="color: pink;">*</span> = obligatoire</div>
+                    </div>
+
+                </div>
+
+                <div class="columns">
+
+                    <div class="column8">
+                        <input id="input1" type="submit" value="Confirmer" />
+                    </div>
+
+                </div>
+
+                <div class="columns">
+
+                    <div>
+                        <a class="column9" href="connexion.html">Retour</a>
+                    </div>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </body>
+
+</html>

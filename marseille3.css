@@ -1,0 +1,245 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  border: none;
+  background: transparent;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 150%;
+}
+
+.dropup {
+  position: relative;
+  display: flex;
+  background: #EEA200;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  padding: 24px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  color:white;
+   background: transparent;
+  min-width: 190px;
+  left: 500px;
+  top: 1px;
+  z-index: 1;
+  padding: 1.35%;
+}
+
+.dropup-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.liheader{
+  display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.linkpro{
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 80px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.link{
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+
+.link:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+
+
+/*---------------------A NE PAS MANQUER----------------------*/
+
+.sectionmanquer{
+  display: flex;
+  width: 100%;
+
+}
+
+.leftmanquer{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 1.5%;
+  margin-top: 20%;
+}
+
+.rightmanquer{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+}
+
+.imgrond{
+  overflow:hidden;
+  -webkit-border-radius:160px;
+  -moz-border-radius:160px;
+  border-radius:160px;
+  width:360px;
+  height:330px;
+  -moz-box-shadow: 0px 0px 10px #343434;
+  -webkit-box-shadow: 0px 0px 10px #343434;
+  -o-box-shadow: 0px 0px 10px #343434;
+  box-shadow: 0px 0px 10px #343434;
+  border: 2px solid #EEA200;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.imgrond:hover {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+#imgcarre{
+  margin-top: 11%;
+  margin-bottom: 11%;
+  border: 2px solid #EEA200;
+  box-shadow: 0px 0px 10px #343434;
+}
+
+.gif{
+  margin-top: 5%;
+  margin-bottom:5%;
+  margin-left: 13%; 
+}
+
+
+#titre{
+  font-size: 280%;
+  font-family: 'Rock Salt', cursive;
+  padding: 2%;
+  margin-left: 12%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  text-shadow: #FC0 1px 0 15px; -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+         
+.flash {
+  animation-name: flash;
+}
+
+.titre1{
+  font-family: 'Lacquer', sans-serif;
+  font-size: 200%;
+}
+
+#txtprincipal{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+#txtprincipal1{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 130%;
+}
+
+#liste .point{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 130%;
+}
+
+#liste{
+  list-style: none
+}
+
+.point::before {
+  content: "•";
+  color: #FC0;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+
+.txt{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+}
+
+.backprincipal{
+  background-color: #EEC05E;
+  padding: 5%;
+  box-shadow: 0px 0px 10px #343434;
+}
+
+.back{
+  background-color: #FFFBE8 ;
+  padding: 2%;
+  box-shadow: 9px 9px 4px #DBD7CE;
+}
+
+.padimg{
+  margin-top: 9%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.lien:link {
+  color:black;
+  text-decoration:underline;
+  background-color:;
+}
+
+.lien:visited {
+  color:#6A6252 ;
+  text-decoration:none;
+}
+
+.lien:hover {
+  color:#F8AE0F;
+  background-color: white;
+}
+
+.lien:active {
+  color:#B4DCE3;
+  text-decoration:none;
+
+}

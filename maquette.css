@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+}
+
+#wrap {
+  line-height: 1.6;
+  margin: 0;
+  display: flex;
+  transition: transform .4s cubic-bezier(.25, .1, .25, 1);
+}
+
+#wrap:not(:target) {
+  transform: translate3d(-335px, 0, 0);
+} 
+
+#wrap:target {
+  transform: translate3d(0, 0, 0);
+}
+
+#open, #close{
+  height: 74px;
+  text-align: right;
+  display: block;
+  margin-right: -30px;
+}
+
+#close{
+ height: 90px; 
+}
+
+#wrap:target #open,
+#wrap:not(:target) #close {
+  display: none;
+}
+
+#wrap:target #open {
+  display: none;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-family: 'Poiret One', cursive;
+  font-size: 170%;
+  font-weight:bold;
+}
+
+#porte{
+  color: white;
+  font-family: 'Poiret One', cursive;
+  font-size: 200%;
+}
+
+.header{
+  background-image: url(pastel.jpg);
+  width: 360px;
+  padding: 0 20px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.nav {
+  padding: 25px;
+  padding-bottom:100%;
+}
+
+body{
+  background:white;
+  font-family: 'Poiret One', cursive;
+  display:grid;
+  grid-template-columns:0fr 1fr;
+  background-color: #F8F6EE;
+}
+
+/*----------------------MAQUETTE-------------------*/
+
+.grid{
+  display:grid;
+  grid-gap: 34px;
+  justify-content: center;
+  margin:72px 0 34px 0;
+  padding:0 34px;
+  grid-template-columns: repeat(auto-fill, 400px);
+  grid-auto-rows: 288px;
+  grid-auto-flow: row dense;
+  margin-right: 3%;
+  margin-bottom: 17%;
+}
+
+.s{
+  grid-column-end: span 1;
+  grid-row-end:span 1;
+}
+ 
+.m{
+  grid-column-end: span 1;
+  grid-row-end:span 2;
+}
+ 
+.l{
+  grid-column-end: span 2;
+  grid-row-end:span 2;
+}
+
+.s, .m, .l{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin-bottom:8px;
+}
+
+.about{
+  font-size: 150%;
+  background: #fff;
+  color:#111;
+  font-weight: 400;
+  padding: 24px;
+}
+
+.a-img-txt{
+  display:grid; 
+  text-decoration: none;
+  font-size: 24px;
+}
+ 
+.a-img-txt>*{
+  grid-area:1/1/-1/-1; 
+}
+ 
+.a-txt{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  opacity:0;
+  background:rgba(0,0,0,0.8);
+  transition:opacity .8s;
+  padding:24px;
+}
+
+.a-txt:hover{
+  opacity:1;
+}
+
+.zoom{
+  display:block;
+  width:100%;
+  height:auto;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.zoom:hover{
+  -webkit-transform: scale(1.7);
+  transform: scale(1.7);
+}

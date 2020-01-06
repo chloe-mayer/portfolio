@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+}
+
+#wrap {
+  line-height: 1.6;
+  margin: 0;
+  display: flex;
+  transition: transform .4s cubic-bezier(.25, .1, .25, 1);
+}
+
+#wrap:not(:target) {
+  transform: translate3d(-335px, 0, 0);
+} 
+
+#wrap:target {
+  transform: translate3d(0, 0, 0);
+}
+
+#open, #close{
+  height: 74px;
+  text-align: right;
+  display: block;
+  margin-right: -30px;
+}
+
+#close{
+ height: 90px; 
+}
+
+#wrap:target #open,
+#wrap:not(:target) #close {
+  display: none;
+}
+
+#wrap:target #open {
+  display: none;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-family: 'Poiret One', cursive;
+  font-size: 170%;
+  font-weight:bold;
+}
+
+#porte{
+  color: white;
+  font-family: 'Poiret One', cursive;
+  font-size: 200%;
+}
+
+.header{
+  background-image: url(pastel.jpg);
+  width: 360px;
+  padding: 0 20px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.nav {
+  padding: 25px;
+  padding-bottom:100%;
+}
+
+/*-----------------------PAGE ACCUEIL-----------------------*/
+
+body{
+  background:white;
+  font-family: 'Poiret One', cursive;
+  display:grid;
+  grid-template-columns:0fr 1fr;
+  grid-gap:24px;
+}
+
+
+
+#titreprincipal{
+  font-size: 250%;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  color: #222;
+  text-align: center;
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+    }
+}
+         
+@keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-65px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.section{
+  display: flex;
+  margin-left: 8%;
+}
+
+.article1{
+  padding-top: 3%;
+  padding-right: 10%;
+}
+
+#txtprincipal1{
+  font-size: 190%;
+  margin-bottom: 10%;
+  color: #222;
+  text-align: center;
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+         
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#txtprincipal2{
+  text-align: center;
+  font-size: 150%;
+  margin-top: 7%;
+    -webkit-animation-duration: 8s;
+  animation-duration: 8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+#cv{
+  text-align: center;
+  margin-bottom: 4%;
+  font-weight: bold;
+  font-size: 130%;
+}
+
+a#cvlien{
+  color: black;
+  text-decoration:none;
+}
+
+a#cvlien:visited {
+  color:#F8CB62 ;
+  text-decoration:none;
+}
+
+a#cvlien:hover {
+  color:#BCEB5D;
+  text-decoration:underline;
+}
+
+#img{
+  text-align: center;
+}

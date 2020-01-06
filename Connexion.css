@@ -1,0 +1,150 @@
+body{
+	background-color: #262626;
+}
+
+h1{
+	font-size: 90px;
+	font-family: 'Be Vietnam', sans-serif;
+	text-shadow:0 0 30px #EC637B,5px 9px 5px rgba(0, 0, 0, 0.5), 0 0 150px #EC637B;color:#FF91A9;
+	padding-bottom: 3%;
+	padding-right: 5%
+}
+
+#inscription{
+	font-size: 90px;
+	font-family: 'Be Vietnam', sans-serif;
+	text-shadow:0 0 30px #EC637B,5px 9px 5px rgba(0, 0, 0, 0.5), 0 0 150px #EC637B;color:#FF91A9;
+	position:absolute;
+	left: 6%;
+	top:0.5%;
+}
+
+.content{
+	display:flex;
+	text-align: center;
+	align-items: center;
+    justify-content: center;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.content1{
+	display:flex;
+	text-align: center;
+	align-items: center;
+    justify-content: center;
+    font-family: 'Be Vietnam', sans-serif;
+    justify-content: flex-end;
+}
+
+.column{
+	font-size: 30px;
+	text-shadow: -1px -1px 1px #111, 
+    			  1px 2px 1px #363636;color: #0F0F0F;
+}
+
+.Columns1{
+display: flex;
+}
+
+input{
+	border-radius: 10px;
+	font-family :'Be Vietnam', sans-serif;
+ 	font-size   : 60%;
+}
+
+#input1{
+	border-radius:12px 0 12px 0;
+	background: #f5f5f5;
+	border:none;
+	color:#262626;
+	font-family :'Be Vietnam', sans-serif;
+	box-shadow:1px 1px 3px #999;
+	font-size: 20px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+.columne{
+	font-size: 25px;
+	text-shadow: -1px -1px 1px #111, 
+    			  1px 2px 1px  #000000;color:#FF91A9;
+}
+
+.column1{
+	color:#FA9EC9;
+	padding: 5%;
+}
+
+.column2{
+	color:#FA9EC9;
+	padding: 25%;
+}
+
+.column3{
+	border-radius:12px 0 12px 0;
+	background: #f5f5f5;
+	border:none;
+	color:#262626;
+	font-family :'Be Vietnam', sans-serif;
+	box-shadow:1px 1px 3px #999;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.column4{
+	font-size: 30px;
+	text-shadow: -1px -1px 1px #111, 
+    			  1px 2px 1px #363636;color: #0F0F0F;
+}
+
+.column5{
+		color:#FA9EC9;
+		padding-top: 75%;
+}	
+
+.column6{
+	border-radius:12px 0 12px 0;
+	background: #f5f5f5;
+	border:none;
+	color:#262626;
+	font-family :'Be Vietnam', sans-serif;
+	box-shadow:1px 1px 3px #999;
+	font-size: 20px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+.column7{
+	position: absolute;
+	top:30%;
+	left:6%;
+}
+
+.column8{
+	position: absolute;
+	top:50%;
+	left:10%;
+}
+
+.column9{
+	position: absolute;
+	top:90%;
+	left:7%;
+}
+
+a:hover { 
+color: #0F0F0F;
+text-decoration:none;
+background-image:url(https://media0.giphy.com/media/l0Ex7JJvEwVXuyOTS/giphy.gif?cid=790b761166c59f7294c9e0c804e27fdcab7c1172a5f1013b&rid=giphy.gif);
+background-repeat:no-repeat;
+}
+
+a{
+	color:#F8BCD8 ;
+}
+
+form{
+	margin-right: 5%;
+	display: block;
+    margin-top: 0em
+}

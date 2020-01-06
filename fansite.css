@@ -1,0 +1,707 @@
+html{
+
+}
+
+body{
+	margin:0;
+}
+
+#back{
+	background-image: url(Terre1.jpg);
+	background-attachment: fixed;
+	background-size: 75% 200%
+}
+
+#back5{
+	background-image: url(Terre3.jpg);
+	background-attachment: fixed;
+	background-size: 50% 200%;
+	background-position:  50% 30%;
+}
+
+#back3{
+	background-image: url(Terre4.jpg);
+	background-attachment: fixed;
+	background-size: 50% 200%;
+	background-position:  50% 30%;
+}
+
+/*Header*/
+
+header{
+	background-color: white;
+	box-shadow: inset 0 0 3em #403011;
+	margin-bottom: 100px;
+}
+
+ nav .topnav ul li{
+ 	background-color: white;
+ 	display:inline-block;
+ 	padding: 60px;
+	list-style-type: none;
+	margin-top: 7px;
+	background:transparent;
+ }
+ 
+ nav .topnav ul li a{
+ 	text-decoration: none;
+}
+
+.btnch{
+	font-family: 'IM Fell DW Pica', serif;
+	color: #403011;
+ 	font-size: 30px;
+ 	font-weight: bold;
+}
+
+.btnch:hover {
+  border-bottom: 3px solid #403011;
+}
+
+#accueilch{
+	margin: 2%
+}
+
+.btn{
+	text-align: center
+	background-color:#1fe0;
+}
+
+/* Rotation */
+
+.btn img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+.btn:hover img {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
+ /*fin rotation/header*/
+
+
+
+ /*Footer*/
+
+
+ nav .bottomnav ul li{
+ 	background-color: white;
+ 	display:inline-block;
+ 	margin: auto;
+	list-style-type: none;
+ }
+
+.bottomnav{
+	border: thick double #613D20;
+	border-width: 10px;
+	box-shadow: 0 0 1em #613D20;
+	background-color: white;
+	margin-top: 50px;
+}
+
+.btn1 img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ase-in-out;
+	margin:3%;
+	width: 100px;
+	padding: 16%;
+	
+}
+
+.btn1:hover img{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.btnch1{
+	font-family: 'IM Fell DW Pica', serif;
+	color: #403011;
+ 	font-size: 30px;
+ 	font-weight: bold;
+}
+
+.btnch2:link {
+	color:  #403011;
+	text-decoration: none;
+}
+
+.btnch2:hover{
+	border-bottom: 3px solid #403011;
+}
+
+.btnch2{
+	font-family: 'IM Fell DW Pica', serif;
+	color: #403011;
+ 	font-size: 43px;
+ 	font-weight: bold;
+ 	margin:40px;
+}
+
+.btnch4{
+	font-family: 'IM Fell DW Pica', serif;
+ 	font-size: 20px;
+ 	font-weight: bold;
+	padding-right:40px ;
+	text-align:center;
+ 	margin-bottom: 18px;
+}
+
+.btnch3:link{
+
+	color: #403011;
+	text-decoration: none;
+}
+
+.btnch3:hover{
+	color: #8F6C2A
+}
+
+.containerch{
+	text-align: center;
+}
+
+/*animation*/
+
+@keyframes loop{
+    0%{ transform: translateY(0px)
+    }
+
+    33%{
+        transform: translateY(-50px)
+    }
+
+    66%{
+        transform: translateY(50px)
+
+    }
+
+    100%{
+        transform: translateY(0px)
+    }
+}
+
+/*ACCUEIL*/
+
+/*Titre*/
+
+#h1ac{
+	font-family: 'IM Fell DW Pica', serif;
+	color: white;
+ 	font-size: 60px;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	padding:8%;
+ 	animation: loop 10s infinite;
+}
+
+/*Son*/
+
+#sonac{
+	position: absolute;
+	left:41%;
+	top:218%;
+
+}
+
+/*image*/
+
+#imgac{
+	padding: 7%;
+	margin-left: 16%;
+	width: 55%;
+	box-shadow: inset 0 0 6em #FFFFFF;
+}
+
+/*Description*/
+
+#desac{
+	font-family: 'IM Fell DW Pica', serif;
+	color: white;
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	padding: 9%;
+}
+
+/*Tableau*/
+
+#tablac{
+ 	text-align: center;
+ 	padding: 3%;
+ 	width:75%;
+ 	padding-bottom: 5%
+
+}
+
+.tablac1{
+	font-family: 'IM Fell DW Pica', serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #695D48 ;
+	padding:5px;
+	width: 4%
+}
+
+.tablac2{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	color: #87785C ;
+	margin:5px;
+	font-weight: bold;
+	line-height: 30px;
+
+}
+
+voir pour z index, 
+
+/*CONTACT*/
+
+/*formu*/
+
+#formuch{
+	font-family: 'IM Fell DW Pica', serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #695D48 ;
+	background-color: #F5F2EC ;
+	width: 18%;
+	opacity: 1;
+	border-radius: 15px;
+	padding: 5%;
+	margin: auto;
+}
+
+#mailch{
+	padding-bottom: 24px;
+}
+
+#namech{
+	padding-bottom: 24px;
+}
+
+.buttonch{
+	margin-left: 40%;
+	padding: 4%;
+	padding-bottom: 10%;
+}
+
+button{
+box-shadow: 10px 11px 20px -5px #614e33;
+	background:linear-gradient(to bottom, #573d22 5%, #b08a51 100%);
+	background-color:#573d22;
+	border-radius:16px;
+	display:inline-block;
+	cursor:pointer;
+	color:#fcf9f4;
+	font-family: 'IM Fell DW Pica', serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 38px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #c27e25;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #b08a51 5%, #573d22 100%);
+	background-color:#b08a51;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+/*EVENEMENT*/
+
+/*Titre*/
+
+#h1ev{
+	font-family: 'IM Fell DW Pica', serif;
+	color: #F3E3CD ;
+ 	font-size: 60px;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	padding:5%;
+ 	animation: loop 10s infinite;
+}
+
+/*Tableaux*/
+
+#tableev{
+	padding-bottom: 6%;
+	margin: auto;
+}
+
+.trev{
+	border: solid 2px #A69781;
+}
+
+.tdev{
+	text-align: center;
+	padding-left:10%;
+	padding-bottom: 4%;
+	width: 33%
+
+}
+
+.tdev1{
+	padding-left: 10%;
+	font-family: 'Special Elite', cursive;
+	color: #F3E3CD ;
+ 	font-size: 20px;
+ 	line-height: 40px
+}
+
+.h2ev{
+	font-family: 'IM Fell DW Pica', serif;
+	color: #D7C9B6  ;
+ 	font-size: 35px;
+ 	border: solid 2px #E59324  ;
+
+}
+
+.h3ev{
+	font-family: 'IM Fell DW Pica', serif;
+	color:#E1D1BC ;
+ 	font-size: 23.5px;
+
+}
+
+/*Actualités*/
+
+
+.Bodyju{
+	font-family: 'IM Fell DW Pica', serif;
+	font-size: 30px;
+	overflow: visible;
+	background-image: url(Images/thumb-1920-84316.jpg);
+	background-attachment: fixed;
+	background-size:;
+	width: auto;
+	color: white;
+
+
+
+}
+
+
+.h1{
+	text-align: center;
+}
+
+
+.flexactu1ju{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius:  20px; 
+	border-color: red;
+	border:solid black 5px;
+	width: 1500px;
+	margin-top: 6rem;
+
+}
+
+
+#actu1ju{
+	position: right;
+	margin: 10rem;
+	margin-top:14rem;
+}
+
+
+#Samaccju{
+	margin: 10rem;
+	width: 400px;
+	margin-top: 12rem;
+	border-radius:  20px;
+}
+
+
+.flexactu2ju{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	border-radius:  20px; 
+	border:solid black 5px;
+	width: 1500px;
+	margin-left: 12rem;
+	margin-top: 6rem;
+	
+}
+
+
+#actu2ju{
+	position: right;
+}	
+
+
+#Maxju{
+
+	margin-top: 5rem;
+	width: 400px;
+	margin-right: 10rem;
+	border-radius:20px;
+	
+}
+
+	
+
+.sectionflexju{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10rem;
+}
+
+
+
+#Vidaccju{
+	width: 500px;
+	margin-top: 9rem;
+	margin-right: 5rem;
+	border-radius: 20px;
+}
+
+
+
+#Imgaccju{
+	margin: 10rem;
+	width: 400px;
+}
+
+
+
+#JDPayneaccju{
+	width: 400px;
+	margin-top: 10rem;
+	margin-left: 5rem;
+	border-radius: 20px;
+}
+
+
+
+#WillPoulaccju{
+	width: 400px;
+	margin-right: 5rem;
+	margin-top: 6rem;
+	border-radius: 20px;
+}
+
+
+
+#ringaccju{
+	width: 400px;
+	margin-top: 12rem;
+	margin-left: 5rem;
+}
+
+
+
+#Consoleaccju{
+	width: 400px;
+	margin-top: 10rem;
+	margin-left: 10rem;
+	border-radius: 20px;
+}
+
+
+
+.vignets {
+    
+    animation: fadein 15s;
+    -moz-animation: fadein 15s; /* Firefox */
+    -webkit-animation: fadein 15s; /* Safari et Chrome */
+    -o-animation: fadein 15s; /* Opera */
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*Realisation*/
+
+
+.flexrea1ju{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius:  20px; 
+	border-color: red;
+	border:solid black 5px;
+	width: 1500px;
+	margin-top: 6rem;
+
+}
+
+
+.flexarea2ju{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	border-radius:  20px; 
+	border:solid black 5px;
+	width: 1500px;
+	margin-left: 12rem;
+	margin-top: 6rem;
+	
+}
+
+
+
+#Peterju{
+
+	margin-top: 5rem;
+	width: 400px;
+	margin-right: 10rem;
+	border-radius:20px;
+	
+}
+
+
+
+#Tolkienju{
+	margin: 10rem;
+	width: 400px;
+	margin-top: 12rem;
+	border-radius:  20px;
+}
+
+
+
+#commuimgju{
+	width: 240px;
+	margin-top: 12rem;
+	margin-left: 5rem;
+	border-radius: 20px;
+}
+
+
+
+#commuvidju{
+	width: 400px;
+	margin-top: 12rem;
+	margin-right: 5rem;
+	border-radius: 20px;
+}
+
+
+
+#deuxtourimgju{
+	width: 240px;
+	margin-right: 5rem;
+	margin-top: 12rem;
+	border-radius: 20px;
+}
+
+
+
+#deuxtourvidju{
+	width: 400px;
+	margin-top: 12rem;
+	margin-right: 5rem;
+	border-radius: 20px;
+}
+
+
+
+#roiimgju{
+	width: 240px;
+	margin-top: 12rem;
+	margin-left: 5rem;
+}
+
+
+#roividju{
+	width: 400px;
+	margin-top: 12rem;
+	margin-right: 5rem;
+	border-radius: 20px;
+}
+
+
+
+
+#voyageimgju{
+	width: 240px;
+	margin-top: 12rem;
+	margin-left: 5rem;
+}
+
+
+#voyagevidju{
+	width: 450px;
+	margin-top: 12rem;
+	margin-right: 5rem;
+	border-radius: 20px;
+}
+
+
+
+#smaugimgju{
+	width: 240px;
+	margin-top: 12rem;
+	margin-left: 5rem;
+}
+
+
+#smaugvidju{
+	width: 450px;
+	margin-top: 12rem;
+	margin-right: 5rem;
+	border-radius: 20px;
+}
+
+
+#batailleimgju{
+	width: 240px;
+	margin-top: 12rem;
+	margin-left: 5rem;
+}
+
+
+#bataillevidju{
+	width: 450px;
+	margin-top: 12rem;
+	margin-right: 5rem;
+	border-radius: 20px;
+}

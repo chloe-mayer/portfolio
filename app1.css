@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    background-attachment: fixed;
+    background-image: url(fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px
+    font-size: 40px;
+
+}
+
+h2{
+    width: 200px;
+    height: 200px;
+    animation: loop 10s infinite;
+    margin-left: -100px;
+    font-family: 'Roboto Slab', serif; 
+    text-align: center;
+    font-size: 70px;
+    text-shadow:#1477EA 2.5px 2.5px 0,
+    #F77F00 5px 5px 0,
+    #FCBF49 7.5px 7.5px 0,
+    #EAE2B7 10px 10px 0,
+    #333 12.5px 12.5px 10px;color:#003049;
+}
+
+#retour{
+    width: 70px;
+    height: 70px;
+    float: left;
+    position: absolute;
+    left: 0%;
+    animation: slide 2s infinite;
+    padding: 70px;
+}
+
+
+/*main*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height:auto
+}
+
+#Shazam{
+    width: 1020px;
+    animation: ap 8s;
+
+
+}
+
+/*présentation*/
+
+.presentation{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 30px;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1550275994-f0ada0c3db31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+}
+
+#mode{
+    background-color: #F6F0E4 ;
+    margin: 20px;
+    padding: 2%;
+    text-align:center;
+    border-radius:0.9%;
+}
+
+/*footer*/
+
+.footer{
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    padding: 5%
+
+}
+
+.get-it{
+    width: 400px;
+    height: 150px;
+}
+
+#icone{
+
+    width: 200px;
+    height: 200px
+}
+
+
+/*animation*/
+
+@keyframes loop{
+    0%{ transform: translateY(0px)
+    }
+
+    33%{
+        transform: translateY(-50px)
+    }
+
+    66%{
+        transform: translateY(50px)
+
+    }
+
+
+    100%{
+        transform: translateY(0px)
+    }
+}
+
+@keyframes ap{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes slide{
+    0%{ transform: translateX(0px)
+    }
+
+    50%{
+        transform: translateX(50px)
+    }
+
+    100%{
+        transform: translateX(0px)
+    }
+}
